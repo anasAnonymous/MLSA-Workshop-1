@@ -47,7 +47,7 @@ const Home = ({ name, title }) => {
         <h1>{name}</h1>
         <h2>{title}</h2>
         {/* added a button on the front page to download the entire website as a pdf (credits: Alishba)*/}
-        <button onClick={handleDownload} className="download-btn">
+        <button style={{ top: "18remx" }} onClick={handleDownload} className="download-btn">
           Download Resume
         </button>
       </div>
